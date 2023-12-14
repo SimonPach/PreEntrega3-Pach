@@ -1,0 +1,8 @@
+#logo {
+    max-width: 4em;
+    /* max-height: 15em; */
+}
+
+table, th, tr, td {
+    border: 2px solid black;
+}
