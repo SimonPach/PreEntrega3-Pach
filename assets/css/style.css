@@ -1,8 +1,72 @@
 #logo {
-    max-width: 4em;
-    /* max-height: 15em; */
+  max-width: 4rem;
 }
 
-table, th, tr, td {
-    border: 2px solid black;
+nav li {
+  list-style: none;
 }
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  background-color: rgba(55, 216, 10, 0.516);
+}
+
+footer {
+  background-color: black;
+}
+footer p {
+  padding: 0;
+  color: white;
+  font-size: 1rem;
+}
+footer li {
+  color: white;
+}
+footer img {
+  max-width: 2rem;
+  margin-right: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+main section img {
+  max-width: 80vh;
+}
+main .contenedor_inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: rgba(43, 26, 226, 0.895);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+span {
+  color: rgba(64, 233, 18, 0.895);
+  text-shadow: 2px 5px 1px rgba(43, 26, 226, 0.895);
+}
+
+h3 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=style.css.map */

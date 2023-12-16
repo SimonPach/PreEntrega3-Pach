@@ -1,0 +1,51 @@
+@import "components/header";
+@import "components/footer";
+@import "components/main";
+// Estilos generales 
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(43, 26, 226, 0.895);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+span {
+    color: rgba(64, 233, 18, 0.895);
+    text-shadow: 2px 5px 1px rgba(43, 26, 226, 0.895);
+}
+
+h3 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 1.4rem;
+    // word-break: break-all;
+}
+
+
+
+
+
+
+// footer {
+//     p {
+//         color: rgb(0, 0, 0);
+//     }
+// }
+
+
+// #logo {
+//     max-width: 4em;
+// }
+
+// tr,th,td, table{
+//     border: 1px solid black;
+// }
