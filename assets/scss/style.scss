@@ -1,7 +1,13 @@
 @import "components/header";
+@import "components/section";   
 @import "components/footer";
 @import "components/main";
 // Estilos generales 
+
+body {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
 
 h1 {
     font-size: 4rem;
@@ -13,12 +19,13 @@ h1 {
 
 span {
     color: rgba(64, 233, 18, 0.895);
-    text-shadow: 2px 5px 1px rgba(43, 26, 226, 0.895);
+    text-shadow: 2px 4px 2.5px rgb(43, 26, 226);
 }
 
 h3 {
     font-size: 2.2rem;
     text-align: center;
+    font-style: italic;
 }
 
 h4 {
@@ -26,9 +33,57 @@ h4 {
 }
 
 p {
-    font-size: 1.4rem;
-    // word-break: break-all;
+    font-size: 1.1rem;
+    text-align: center;
+    
 }
+
+.parrafo_rutinas {
+    margin: 80px 0 40px 0;
+}
+
+// article
+
+#banner_index {
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/banner_index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#banner_planes {
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/banner_planes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#banner_rutinas {
+    width: auto;
+    height: 50vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/banner_rutinas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
 
 
 
