@@ -43,41 +43,25 @@
     <!--    FIN     -->
 
     <!--   BANNER BIENVENIDA   -->
-    <article id="banner">
-        <h1>Comunicate con nosotros</h1>
+    <article id="banner_contacto">
+        <h1>Contacto</h1>
     </article>
     <!--   FIN     -->
 
     <!-- FORMULARIO -->
-        <div class="contact-form">              
-            <form action="">
-                <p>
-                    <label for="nombrecompleto">Nombre completo</label>
-                    <input type="text" name="nombrecompleto" id="nombrecompleto" required placeholder="Nombre y Apellido">
-                </p>
-                <p>
-                   <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required placeholder="ejemplo@gmail.com">
-                </p>
-                <p>
-                    <label for="tel">Numero de telefono</label>
-                    <input type="tel" name="tel" id="tel" required placeholder="+54912345678">
-                </p>
-                <p>
-                    <label for="motivo">Motivo de tu consulta</label>
-                    <input type="text" name="motivo" id="motivo">
-                </p>
-                <p class="block">
-                    <label for="mensaje">Mensaje</label> 
-                    <textarea name="mensaje" id="mensaje" required placeholder="En que te podemos ayudar?" rows="3"></textarea>
-                </p>
-                <p class="block">
-                    <button>
-                        Enviar
-                    </button>
-                </p>
-            </form>
-        </div>
+    <section>
+    <form class="form-register">
+        <h3>Escribinos</h3>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+        <textarea name="consulta" id="" cols="30" rows="10"></textarea><br>
+        <input type="checkbox" required>
+        <label>Estoy de acuerdo con <a href="https://policies.google.com/terms?hl=es" target="_blank">Terminos y Condiciones</a></label>
+        <br>
+        <button>Enviar</button>
+      </form>
+    </section>
 
     <!--    INICIO FOOTER    -->
     <footer>

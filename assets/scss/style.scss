@@ -28,9 +28,6 @@ h3 {
     font-style: italic;
 }
 
-h4 {
-    font-size: 1.4rem;
-}
 
 p {
     font-size: 1.1rem;
@@ -71,7 +68,7 @@ p {
 
 #banner_rutinas {
     width: auto;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -83,24 +80,31 @@ p {
 
 }
 
+#banner_alimentacion {
+    width: auto;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/banner_alimentacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#banner_contacto {
+    width: auto;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/banner_contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 
 
-
-
-
-
-// footer {
-//     p {
-//         color: rgb(0, 0, 0);
-//     }
-// }
-
-
-// #logo {
-//     max-width: 4em;
-// }
-
-// tr,th,td, table{
-//     border: 1px solid black;
-// }

@@ -27,7 +27,7 @@
 <body>
     <!--    HEADER Y NAVEGADOR    -->
     <header>
-            <a href="">
+            <a href="../../index.html">
                 <img id="logo" src="../img/logo.jpg" alt="logo de nuestra compañia de nutricion">
             </a>
             <nav>
@@ -35,7 +35,7 @@
                     <a href="../../index.html">Inicio</a>
                     <a href="planes.html">Planes de seguimiento</a>
                     <a href="entrenamiento.html">Entrenamiento</a>
-                    <a href="">Alimentacion</a>
+                    <a href="#columnas">Alimentacion</a>
                     <a href="contacto.html">Consultas</a>
                 </li>
             </nav>
@@ -43,53 +43,63 @@
     <!--    FIN     -->
 
     <!--   BANNER BIENVENIDA   -->
-    <article id="banner">
-        <h1>Alimentacion</h1>
+    <article id="banner_alimentacion">
+        <h1>Comidas</h1>
     </article>
     <!--   FIN     -->
 
     <!-- DESCRIPCION DE ALIMENTOS (PROTEINA)-->
     <section>
-        <h3>¿Que alimenton contienen una buena cantidad de proteinas?</h3>
-        <details open>
-            <summary>Carnes magras:</summary>
-        <ul>
-            <li>Pollo (pechuga sin piel)</li>
-            <li>Pavo (pechuga sin piel)</li>
-            <li>Pescado (atún, salmón, tilapia)</li>
-            <li>Ternera magra</li>
-            <li>Cerdo magro</li>
-        </ul>
-        </details>
-        <details open>
-            <summary>Productos lácteos:</summary>
-        <ul>          
-            <li>Leche</li>
-            <li>Queso cottage</li>
-            <li>Queso mozzarella</li>
-            <li>Queso ricotta</li>
-            <li>Yogur griego</li>
-        </ul>
-        </details>
-        <details open>
-            <summary>General:</summary> 
-        <ul>
-            <li>Suplementos proteicos</li>
-            <li>Lentejas y Garbanzos</li>
-            <li>Avena y productos derivados con avena</li>
-            <li>Arroz de todo tipo</li>
-            <li>Huevos</li>
-            <li>Almendras</li>
-            <li>Mani, Pasta de Mani, Chia</li>
-        </ul>
-    </details>
+        <h3 class="alimentos">¿Que alimenton contienen una buena cantidad de proteinas?</h3>
+        <div id="columnas">
+            <div>
+            <details open>
+                <summary>Carnes magras:</summary>
+                 <ul>
+                    <li>Pollo (pechuga sin piel)</li>
+                    <li>Pavo (pechuga sin piel)</li>
+                    <li>Pescado (atún, salmón, tilapia)</li>
+                    <li>Ternera magra</li>
+                    <li>Cerdo magro</li>
+                </ul>
+            </details>
+        </div>
+        <div>
+            <details open>
+                <summary>Productos lácteos:</summary>
+                <ul>          
+                    <li>Leche</li>
+                    <li>Queso cottage</li>
+                    <li>Queso mozzarella</li>
+                    <li>Queso ricotta</li>
+                    <li>Yogur griego</li>
+                 </ul>
+            </details>
+        </div>
+        <div>
+             <details open>
+                <summary>General:</summary> 
+                <ul>
+                    <li>Suplementos proteicos</li>
+                    <li>Lentejas y Garbanzos</li>
+                    <li>Avena y productos derivados con avena</li>
+                    <li>Arroz de todo tipo</li>
+                    <li>Huevos</li>
+                    <li>Almendras</li>
+                    <li>Mani, Pasta de Mani, Chia</li>
+                </ul>
+             </details>
+            </div>
+        </div>
     </section>
 
     <hr>
 
     <!-- INICIO ALIMENTOS CON CARBOHIDRATOS -->
     <section>
-        <h3>¿Que carbohidratos debo incluir en mis comidas?</h3>
+        <h3 class="alimentos">¿Que carbohidratos debo incluir en mis comidas?</h3>
+        <div id="columnas">
+            <div>
         <details open>
             <summary>Granos y cereales:</summary>
             <ul>
@@ -101,6 +111,8 @@
                 <li>Granos de centeno</li>
             </ul>
         </details>
+    </div>
+        <div>
         <details open>
             <summary>Frutas:</summary>
             <ul>
@@ -113,6 +125,8 @@
                 <li>Kiwi</li>
             </ul>
         </details>
+        </div>
+        <div>
         <details open>
             <summary>Varios:</summary>
             <ul>
@@ -123,14 +137,18 @@
                 <li>Camote</li>
             </ul>
         </details>
+    </div>
+    </div>
     </section>
 
     <hr>
 
     <!-- INICIO GRASAS SALUDABLES -->
     <section>
-        <h3>¿Cuales son los mejores alimentos que contengan grasas saludables?</h3>
-        <details open   >
+        <h3 class="alimentos">¿Cuales son los mejores alimentos que contengan grasas saludables?</h3>
+        <div id="columnas">
+            <div>
+        <details open>
             <summary>Pescados grasos:</summary>
             <ul>
                 <li>Salmón</li>
@@ -141,6 +159,8 @@
                 <li>Arenque</li>
             </ul>
         </details>
+    </div>
+        <div>
         <details open>
             <summary>Frutos secos y semillas:</summary>
             <ul>
@@ -151,6 +171,8 @@
                 <li>Semillas (Chia, Lino, Girasol, Calabaza)</li>
             </ul>
         </details>
+    </div>
+        <div>
         <details open>
             <summary>Varios:</summary>
             <ul>
@@ -161,6 +183,8 @@
                 <li>Soja</li>
             </ul>
         </details>
+    </div>
+    </div>
     </section>
 
     
