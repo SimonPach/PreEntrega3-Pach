@@ -1,0 +1,41 @@
+@media only screen and (min-width: 720px) {
+    header {
+
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+
+
+        #logo {
+
+        }
+
+        nav {
+            padding-bottom: 0;
+            padding-right: 25px;
+        }
+
+
+
+    }
+
+    main {
+        section {
+            img {
+                width: 15em;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
